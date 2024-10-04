@@ -12,5 +12,5 @@
       "dest": "/"
     }
   ],
-  "devCommand": "gunicon -w 4 index:app"
+  "devCommand": "gunicon -w 2 index:app"
 }
