@@ -4,7 +4,7 @@ app = Bottle()
 
 @app.route('/')
 def index():
-  return template('<b>Hello World</b>!')
+  return '<b>Hello World</b>!'
 
 @app.route('/hello/<name>')
 def index(name):
