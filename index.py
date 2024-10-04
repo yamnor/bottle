@@ -1,7 +1,5 @@
-from bottle import route, run
+from bottle import route
 
 @route('/')
 def index():
   return '<b>Hello world</b>!'
-
-run()
